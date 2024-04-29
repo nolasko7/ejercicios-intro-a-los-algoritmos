@@ -124,7 +124,7 @@ public class Libro {
      * @param otroLibro el otro libro con el cual comparar, debe ser distinto de {@code null}
      * @return {@code true} sii este libro es igual a {@code otroLibro}
      */
-    public boolean equals(Libro otroLibro) {
+    public boolean equalss(Libro otroLibro) {
         assert otroLibro != null : "el otro libro es null";
         if (paginas != otroLibro.obtenerPaginas()) {
             return false;
